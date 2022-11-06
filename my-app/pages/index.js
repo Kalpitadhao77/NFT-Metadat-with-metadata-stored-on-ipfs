@@ -26,7 +26,7 @@ export default function Home() {
 
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a LW3Punk!");
+      window.alert("You successfully minted a Humanoid!");
     } catch (err) {
       console.error(err);
     }
